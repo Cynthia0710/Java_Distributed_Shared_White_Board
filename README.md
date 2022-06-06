@@ -24,10 +24,10 @@ Shared whiteboards allow multiple users to draw simultaneously on a canvas.
 ## Excute
 The first user creates a whiteboard and becomes the whiteboard’s manager:
 
-`java –jar CreateWhiteBoard.jar <serverIPAddress> <serverPort> <serverName>`
+`java -jar CreateWhiteBoard.jar <serverIPAddress> <serverPort> <serverName>`
 
 Other users can ask to join the whiteboard application any time by inputting server’s IP address and port number:
 
-`java –jar JoinWhiteBoard.jar <serverIPAddress> <serverPort> <clientName>`
+`java -jar JoinWhiteBoard.jar <serverIPAddress> <serverPort> <clientName>`
 
     
